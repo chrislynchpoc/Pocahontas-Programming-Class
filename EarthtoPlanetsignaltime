@@ -19,12 +19,12 @@ Uranus = 2586000000000
 Neptune = 4312000000000
 
 #s = speed of light in vaccuum
-s = 300000000
+s = 299792458
 
 print("the distance from Earth to Voyager in meters is:" + str(x))
 print("the speed of light is:" + str(s))
 
-t = x/s
+t = x/Solar_System_Object
 
 print("It takes light:" + str(t) + " seconds" + "to reach earth")
 
