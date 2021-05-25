@@ -1,22 +1,25 @@
-planet = input("Which planet to you wish to visit? ")
+"""
+This program calculates the average time for signal to an object in the solar system. 
+Note, distances are averages and thus times will vary throughout the year. 
+"""
 
-Mercury = 222000000
-#Venus = 
+Solar_System_Object = input("Which Solar System Object are you sending a signal to? ")
 
-# distance in miles form earth to mars
+#distance to object from the Earth, given in meters
 
-x = 21000000000000
+Mercury = 91726000000
+Venus = 41840000000
+Earth = 0
+International Space Station
+Earth's Moon = 385000000
+Mars = 56000000000
+Jupiter = 591000000000
+Saturn = 1197000000000
+Uranus = 2586000000000
+Neptune = 4312000000000
 
-# convert to meters
-#1 inch = 2.54 cm
-
-#s = speed of light
+#s = speed of light in vaccuum
 s = 300000000
-
-# meters in a  mile(1609.34)
-# distance in metter
-
-#xm = x*1606.4
 
 print("the distance from Earth to Voyager in meters is:" + str(x))
 print("the speed of light is:" + str(s))
